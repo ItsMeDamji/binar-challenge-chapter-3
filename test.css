@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", cursive;
+}
+
+/* navbar */
+
+.Navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    position: fixed;
+    text-align: center;
+}
+
+.Navbar-kiri-flex-group {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-Navbar-Kiri{
+    width: 8%;
+    margin-right: 8rem;
+    margin-left: 6rem;
+}
+
+.Menu-Navbar-Kiri {
+    display: flex;
+    margin-right: 20rem;
+}
+
+.Opsi-Navbar-Kiri{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.Opsi-Kanan-Group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+
+.Opsi-Navbar-Kanan {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* first section */
+
+.first-section{
+    background-image: url("assets/main-bg.jpg");
+    height: 150vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.button-play-now{
+    margin-top: 2rem;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    border-color: #F3AF34;
+    color:black;
+    font-size: 16px;
+    padding:1rem;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.the-story-scrolldown {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: -18rem;
+    height: 000;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+    transform-origin: bottom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce-2 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-25px);}
+    100% {transform: translateY(0);}
+}
+
+#the-story {
+    font-size: 12px;
+}
+
+/* 2nd section */
+
+.second-section {
+    background-image: url("assets/the-games-bg.jpg");
+    height: 150vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+
+/* 3rd section */
+
+.third-section {
+    background-image: url("assets/features.jpg");
+    height: 150vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 4th section */
+.fourth-section {
+    background-image: url("assets/requirements.png");
+    height: 150vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 5th section */
+.fifth-section {
+    background-image: url("assets/top-score-bg.png");
+    height: 150vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
